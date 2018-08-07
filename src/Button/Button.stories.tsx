@@ -7,6 +7,8 @@ import { Button } from './Button';
 (storiesOf('Components', module) as any).addWithJSX(
   'Button',
   wInfo(`
+  ### Source
+  https://github.com/jsprow/repleotech-storybook/tree/master/src/Button
 
   ### Notes
 
