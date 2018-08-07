@@ -1,13 +1,31 @@
-This is the end result from https://dev.to/swyx/quick-guide-to-setup-your-react--typescript-storybook-design-system-1c51
+This project was bootstrapped with [React Typescript Storybook Starter](https://github.com/sw-yx/react-typescript-storybook-starter/).
 
-# update (july 2018)
+# Install
 
-@ncochard has provided an update to rewrite the stories in typescript, i think this is great so [i merged in the PR here](https://github.com/sw-yx/react-typescript-storybook-starter/pull/1). Check it out!
+First, you'll need Git and NodeJS installed.
+
+[Here's the git install instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+[The NodeJS instructions](https://nodejs.org/en/download/)
+
+Then, clone this repository into { target-directory }:
+
+```bash
+git clone https://github.com/jsprow/repleotech-storybook.git { target directory }
+cd { target-directory }
+```
+
+Install the NodeJS dependencies:
+
+```bash
+npm install
+```
 
 # Usage
 
+To start the dev server:
+
 ```bash
-yarn
 npm run storybook
 ```
 
