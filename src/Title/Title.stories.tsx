@@ -2,7 +2,7 @@ import { text } from '@storybook/addon-knobs/react';
 import { storiesOf } from '@storybook/react';
 import * as React from 'react';
 import { wInfo } from '../utils';
-import Title from './Title';
+import { Title } from './Title';
 
 (storiesOf('Components', module) as any).addWithJSX(
   'Title',

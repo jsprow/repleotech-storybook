@@ -13,5 +13,5 @@ export const wInfo: WInfo = text =>
     inline: true,
     source: false,
     styles: wInfoStyle,
-    text: text
+    text
   });

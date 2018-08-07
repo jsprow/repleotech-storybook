@@ -1,12 +1,10 @@
 import * as React from 'react';
 import './Title.css';
 
-interface TitleProps {
+interface ITitleProps {
   label: string;
 }
 
-export const Title = (props: TitleProps) => (
+export const Title = (props: ITitleProps) => (
   <span className="Title">{props.label}</span>
 );
-
-export default Title;

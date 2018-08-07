@@ -1,4 +1,4 @@
-import { boolean, text, selectV2 } from '@storybook/addon-knobs/react';
+import { boolean, selectV2, text } from '@storybook/addon-knobs/react';
 import { storiesOf } from '@storybook/react';
 import * as React from 'react';
 import { wInfo } from '../utils';
