@@ -1,0 +1,29 @@
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 25vw;
+  font-weight: 300;
+  font-size: 3vh;
+}
+
+.Button.air {
+  color: #fff;
+  background-color: #2d5eb2;
+}
+
+.Button.mall {
+  color: #fff;
+  background-color: #111;
+  box-shadow: 0 0 4px 2px #72b24b;
+  border-radius: 6vh;
+  transition: background-color 500ms ease-in-out, box-shadow 500ms ease-in-out;
+}
+
+.Button.disabled {
+  background-color: #aaa;
+  box-shadow: 0 0 4px 2px transparent;
+  pointer-events: none;
+  cursor: no-drop;
+}
