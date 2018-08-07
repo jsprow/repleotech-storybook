@@ -8,11 +8,11 @@ First, you'll need Git and NodeJS installed.
 
 [The NodeJS instructions](https://nodejs.org/en/download/)
 
-Then, clone this repository into "target-directory":
+Then, clone this repository:
 
 ```bash
-git clone https://github.com/jsprow/repleotech-storybook.git "target-directory"
-cd "target-directory"
+git clone https://github.com/jsprow/repleotech-storybook.git
+cd repleotech-storybook
 ```
 
 Install the NodeJS dependencies:
